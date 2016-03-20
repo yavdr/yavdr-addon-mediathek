@@ -1,8 +1,8 @@
 		<menu name="Mediathek">
-			<command name=<?cs call:quote(_("ARD")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-ard &amp;> /dev/null " />
-		        <command name=<?cs call:quote(_("ZDF")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-zdf &amp;> /dev/null " />
-		        <command name=<?cs call:quote(_("DMAX")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-dmax &amp;> /dev/null " />
-		        <command name=<?cs call:quote(_("Golem-Video")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-golem &amp;> /dev/null " />
-		        <command name=<?cs call:quote(_("SAT1")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-sat1 &amp;> /dev/null " />
-		        <command name=<?cs call:quote(_("Gametrailers")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-gametrailers &amp;> /dev/null " />
+			<command name=<?cs call:quote(_("ARD")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-ard | at now > /dev/null " />
+		        <command name=<?cs call:quote(_("ZDF")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-zdf | at now > /dev/null " />
+		        <command name=<?cs call:quote(_("DMAX")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-dmax | at now > /dev/null " />
+		        <command name=<?cs call:quote(_("Golem-Video")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-golem | at now > /dev/null " />
+		        <command name=<?cs call:quote(_("SAT1")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-sat1 | at now > /dev/null " />
+		        <command name=<?cs call:quote(_("Gametrailers")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=mediathek-gametrailers | at now > /dev/null " />
 		</menu> 
